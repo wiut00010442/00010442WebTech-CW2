@@ -1,0 +1,169 @@
+:root {
+    font-size: 18px;
+    color: #1e2625;
+    background-color:   rgb(247, 224, 224);
+    
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+  }
+  
+  .navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px dashed #25242a;
+    padding: 10px;
+    
+  }
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+      border-radius: 10px;
+  }
+
+  a:hover {
+      color:rgb(97, 4, 4);
+      background:  white;
+  
+  }
+  
+  
+  .nav a {
+    display: inline-block;
+    padding: 5px 10px;
+    
+  
+  }
+  /*homepage styles */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    
+  }
+  
+  .create {
+    padding: 25px;
+  }
+
+  .intro-msg {
+    padding: 100px 0 30px 0 ;
+    font-size: 2rem;
+    max-width: 60%;
+    
+}
+
+.featured {
+   display: inline-block; 
+   padding: 10px 20px;
+   background: rgb(122, 6, 6);
+   color: cornsilk;
+   
+}
+
+.featured:hover {
+  color: rgb(122, 6, 6);
+  background: cornsilk;
+  border-radius: 10px;
+}
+
+/*create page styles */
+.form {
+  /* margin-left: 140px; */
+  max-width: 100%;
+}
+.input {
+    width: 60%;
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    
+}
+
+.btn {
+    display:inline-block;
+    background: rgb(65, 3, 3);
+    color: #fff;
+    font-size: 1.3rem;
+    border:none;
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 15px;
+    
+}
+
+.btn:hover {
+  color:  rgb(65, 3, 3);
+  background: #fff;
+  border-radius: 15px;
+}
+
+/* note list page styles */
+.note-wrapper {
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.note {
+    font-size: 1.3rem;
+}
+
+.delete{
+  display:inline-block;
+  padding: 5px 10px;
+  margin-left: 140px;
+  background:rgb(129, 13, 13);
+  color:rgb(255, 255, 255) ;
+}
+
+.error {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(129, 13, 13);
+    font-size: 1.2 rem;
+    color:rgb(97, 4, 4)
+}
+
+.success {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(88, 139, 11);
+    font-size: 1.2 rem;
+    color:rgb(88, 139, 11);
+}
+  
+.footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    font-size: 1.3rem;
+    padding: 10px;
+    color: black;
+
+}
+
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+  text-align: center;
+  margin-top: 230px;
+}

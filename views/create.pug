@@ -1,0 +1,28 @@
+extends layout.pug 
+
+block content 
+  div.container
+    h1 Order app 
+
+    if error 
+      p.error Some error occured! Try again!
+
+    if success 
+      p.success Client is added! 
+   
+    form.form(action="/create" method='POST') 
+      label Title 
+      input.input(type="text" name='title')
+
+      label Name 
+      input.input(type="text" name='name')
+
+      label Surname 
+      input.input(type="text" name='surname')
+
+      label Description 
+      textarea.input(type="text" name="description")
+
+      button.btn Submit your personal details
+
+
